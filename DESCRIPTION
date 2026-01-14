@@ -1,0 +1,20 @@
+Package: quickSave
+Title: Quick Plot Saving Utilities
+Version: 0.1.0
+Authors@R: 
+    person("Zhijun Feng", 
+           email = "fengzhj18@sina.com", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-1813-1669"))
+Description: Provides convenient functions for saving ggplot and base R plots 
+    with automatic formatting and path management. Simplifies common plotting 
+    workflows in bioinformatics analysis.
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.2.3
+Imports:
+    ggplot2 (>= 3.4.0),
+    R6 (>= 2.5.0)
+Suggests:
+    knitr,
+    rmarkdown
